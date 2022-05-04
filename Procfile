@@ -1,2 +1,2 @@
 
-worker: python3 gay.py
+worker: python3 spammer.py
