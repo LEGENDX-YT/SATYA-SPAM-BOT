@@ -3,7 +3,7 @@ from telethon.sync import TelegramClient
 
 
 print(
-    """DEADLY SPAM BOT"""
+    """SATYA SPAM BOT"""
 )
 
 print("\n • Telethon Session •")
@@ -16,9 +16,9 @@ API_HASH = input("\nEnter API HASH here: ")
 
 
 try:
-   with TelegramClient(StringSession(), APP_ID, API_HASH) as Deadly:
+   with TelegramClient(StringSession(), APP_ID, API_HASH) as Satya:
        print("\nSTRING SESSION GENERATE SUCCESSFULLY CHECK SAVED MASSAGE")
-       Deadly.send_message("me", f"**Deadly X Spam Session :**\n\n`{Deadly.session.save()}`\n\n__Do not share this anywhere!!__")
+       Satya.send_message("me", f"**Satya X Spam Session :**\n\n`{Satya.session.save()}`\n\n__Do not share this anywhere!!__")
        
 except Exception as e:
     print(f"{e}")
